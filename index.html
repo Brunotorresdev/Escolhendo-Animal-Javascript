@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curso JavaScript</title>
-    <link rel="stylesheet" href="style.css">
-   
-</head>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
 
-<body>
-    <img src="images/cachorro.jpg" data-animal="cachorro" class="imagem" alt=""> <br>
+  <body>
+    <div class="content">
+      <img
+        src="/assets/images/cachorro.jpg"
+        data-animal="cachorro"
+        class="imagem"
+        alt=""
+      />
+      <br />
 
-    <button onclick="trocarImagem('cachorro.jpg', 'cachorro')">Cachorro</button>
+      <button onclick="trocarImagem('cachorro.jpg', 'cachorro')">
+        Cachorro
+      </button>
 
-    <button onclick="trocarImagem('gato.jpg', 'gato')">gato</button>
+      <button onclick="trocarImagem('gato.jpg', 'gato')">gato</button>
 
-
-    <button onclick="pegarAnimal()">Qual é o animal?</button>
-
+      <button onclick="pegarAnimal()">Qual é o animal?</button>
+    </div>
 
     <script type="text/javascript" src="script.js"></script>
-</body>
-
+  </body>
 </html>
